@@ -1,7 +1,7 @@
 NSUserDefaults-HYPForceSynchronize
 ==================================
 
-Why calling `synchronize` every time?
+Why calling `synchronize` every time you set a value in your NSUserDefaults?
 
 #STORE!!!!!!!!!!!!!!
 
