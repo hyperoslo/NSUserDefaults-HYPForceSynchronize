@@ -10,4 +10,10 @@
     [self synchronize];
 }
 
+- (void)hyp_destroyObjectForKey:(NSString *)defaultName
+{
+    [self removeObjectForKey:defaultName];
+    [self synchronize];
+}
+
 @end
